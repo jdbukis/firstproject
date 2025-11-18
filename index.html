@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pizza Order</title>
+   <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="main-body">
+  <h1>Do you want Pizza?</h1>
+  <img src="assets/images/01-02-02_ci-logo.png" alt="logo">
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Order Details</legend>
+
+      <label for="cname">Customer Name</label>
+      <input type="text" id="cname" name="cname" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>Pizza Size</legend>
+
+      <label for="pizza-size">Size</label>
+      <select name="pizza-size" id="pizza-size" required>
+        <option value="">Choose size</option>
+        <option value="large">Large</option>
+        <option value="medium">Medium</option>
+        <option value="small">Small</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Toppings</legend>
+
+      <input type="checkbox" id="topping-pepperoni" name="topping[1]" value="pepperoni">
+      <label for="topping-pepperoni">Pepperoni</label>
+
+      <input type="checkbox" id="topping-mushroom" name="topping[2]" value="mushroom">
+      <label for="topping-mushroom">Mushroom</label>
+
+      <input type="checkbox" id="topping-chicken" name="topping[3]" value="chicken">
+      <label for="topping-chicken">Chicken</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Crust</legend>
+
+      <input type="radio" id="crust-thin" name="crust-type" value="thin" checked>
+      <label for="crust-thin">Thin</label>
+
+      <input type="radio" id="crust-thick" name="crust-type" value="thick">
+      <label for="crust-thick">Thick</label>
+
+      <input type="radio" id="crust-stuffed" name="crust-type" value="stuffed">
+      <label for="crust-stuffed">Stuffed</label>
+    </fieldset>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
