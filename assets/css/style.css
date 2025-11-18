@@ -1,0 +1,24 @@
+legend {
+font-weight: bold;
+color: red;
+}
+h1 {
+color: red;
+font-weight: bold;
+}
+form {
+    background-color: beige;
+}
+input[type="submit"] {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+input[type="reset"] {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+body.main-body {
+    background-image: url('../images/01-02-02_background-img.jpg');
+}
